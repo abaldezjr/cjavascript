@@ -1,8 +1,8 @@
 //numeros binarios, hexadecimais, octais
-let number = new Number(123.4);
-console.log(number.toExponential(10));
-console.log(number.toFixed(2));
-console.log(number.toPrecision(10));
+//let number = new Number(123.4);
+//console.log(number.toExponential(10));
+//console.log(number.toFixed(2));
+//console.log(number.toPrecision(10));
 
 //binarios
 //console.log(0b0);
@@ -108,4 +108,79 @@ console.log(number.toPrecision(10));
 //console.log(036);
 //console.log(037);
 //console.log(040);
+
+//OPERADORES NUMÉRICOS
+//let contador = 0;
+//console.log(contador++);
+//console.log(contador);
+//console.log(++contador);
+//console.log(contador);
+
+//let result = 10;
+//result += 2;
+//result -= 5;
+//result *= 8;
+//result /= 2;
+//result %= 6;
+//console.log(result);
+
+//let n1 = 10;
+//let n2 = 5;
+//console.log(n1 + n2);
+//console.log(n1 - n2);
+//console.log(n1 * n2);
+//console.log(n1 / n2);
+//console.log(n1 % n2);
+
+//OPERAÇÕES COM NÚMEROS BINÁRIOS
+
+//operação binário or (acaba somando)
+//let n1 = 4;
+//let n2 = 3;
+//console.log(n1.toString(2).padStart(32,0));
+//console.log(n2.toString(2).padStart(32,0));
+//console.log(n1 | n2);
+
+//operação binaria and
+//let n1 = 3;
+//let n2 = 1;
+//console.log(n1.toString(2).padStart(32,0));
+//console.log(n2.toString(2).padStart(32,0));
+//console.log(n1 & n2);
+
+//operação binaria xor
+//let n1 = 5;
+//let n2 = 2;
+//console.log(n1.toString(2).padStart(32,0));
+//console.log(n2.toString(2).padStart(32,0));
+//console.log(n1 ^ n2);
+
+//operação binaria not
+//let n1 = 2;
+//let n2 = -3;
+//console.log(n1.toString(2).padStart(32,0));
+//console.log((n2 >>> 0).toString(2).padStart(32,0));
+//console.log(~n1);
+
+//deslocamento de bits para esquerda
+//let n1 = 4;
+//let r = (n1 << 2);
+//console.log(r.toString(2).padStart(32, 0));
+//console.log(r);
+
+//deslocamento de bits para direita
+//let n1 = 4;
+//let r = (n1 >> 2);
+//console.log(r.toString(2).padStart(32, 0));
+//console.log(r);
+
+//deslocamento com sinal junto
+let n1 = -2;
+// >>> com mudança de sinal
+let r = (n1 >>> 1);
+console.log(r.toString(2).padStart(32, 0));
+console.log(r);
+
+
+
 
