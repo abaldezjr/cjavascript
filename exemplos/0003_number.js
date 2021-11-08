@@ -175,11 +175,60 @@
 //console.log(r);
 
 //deslocamento com sinal junto
-let n1 = -2;
+//let n1 = -2;
 // >>> com mudança de sinal
-let r = (n1 >>> 1);
-console.log(r.toString(2).padStart(32, 0));
-console.log(r);
+//let r = (n1 >>> 1);
+//console.log(r.toString(2).padStart(32, 0));
+//console.log(r);
+
+//Conversão numérica
+
+//console.log(Number("10"));
+//console.log(Number("9.9"));
+//console.log(Number("0xFF"));
+//console.log(Number("0b10"));
+//console.log(Number("0o10"));
+//console.log(Number());
+//console.log(Number("Javascript"));
+
+//coisas estranhas
+//console.log(~~"10");
+//console.log(+"10");
+//console.log("10" + 2); //102
+//console.log("10" - 2); //8
+//console.log("10" * 2); //20
+//console.log("10" / 2); //5
+
+//conversão de bases
+
+//NUMERICO PARA STRING
+//hex to dec
+//console.log((0xA).toString(10));
+
+//bin to hex
+//console.log((0b1010).toString(16));
+
+//oct to hex
+//console.log((010).toString(16));
+
+//dec to oct
+//console.log((10).toString(8));
+
+//STRING PARA NUMERICO
+//console.log(parseInt("10", 10));
+//console.log(parseInt("9.9", 10));
+//console.log(parseInt("A", 16));
+//console.log(parseInt("11", 2));
+//console.log(parseInt("10", 10));
+//console.log(parseInt("010", 8));
+
+//console.log(parseFloat("10"));
+//console.log(parseFloat("2.5"));
+//console.log(parseFloat("0xFF")); //entende o primeiro o numero e trata o resto como string e elimina
+//console.log(parseFloat("0b10"));
+
+
+
 
 
 
