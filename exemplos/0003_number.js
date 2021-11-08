@@ -227,9 +227,45 @@
 //console.log(parseFloat("0xFF")); //entende o primeiro o numero e trata o resto como string e elimina
 //console.log(parseFloat("0b10"));
 
+//IEEE 754 estudar
 
+//Math
+//constantes
+//console.log(Math.E);
+//console.log(Math.PI);
+//console.log(Math.SQRT2);
+//console.log(Math.LN10);
+//console.log(Math.LN2);
+//console.log(Math.SQRT1_2);
+//console.log(Math.LOG10E);
+//console.log(Math.LOG2E);
 
+//funções matematicas
 
+//tomar muito cuidado com isso
+//console.log(Math.abs(10));
+//console.log(Math.abs(-10));
+//console.log(Math.ceil(1.1));
+//console.log(Math.ceil(-1.1));
+//console.log(Math.floor(9.9));
+//console.log(Math.floor(-9.9));
+//console.log(Math.round(4.5));
+//console.log(Math.round(-4.5));
+
+//
+//console.log(Math.cbrt(8));
+//console.log(Math.cos(Math.PI / 3));
+//console.log(Math.exp(1));
+//console.log(Math.hypot(3,4));
+//console.log(Math.log(1));
+//console.log(Math.pow(2,10));
+//console.log(Math.sin(Math.PI / 2));
+//console.log(Math.sqrt(4));
+//console.log(Math.tan(Math.PI / 4));
+
+console.log(Math.min(1,2,3));
+console.log(Math.max(1,2,3));
+console.log(Math.random());
 
 
 
