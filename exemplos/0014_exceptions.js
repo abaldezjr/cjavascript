@@ -1,6 +1,6 @@
-//EXCEPTIONS
+// //EXCEPTIONS
 
-//exemplo 1
+// //exemplo 1
 // const Rectangle = function (x, y) {
 //     this.x = x;
 //     this.y = y;

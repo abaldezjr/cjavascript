@@ -1,6 +1,6 @@
-//CLOSURES
+// //CLOSURES
 
-//exemplo 1
+// //exemplo 1
 // const v1 = 10;
 // function fn1() {
 //     function fn2() {
@@ -10,11 +10,11 @@
 // }
 // fn1();
 
-//exemplo 2
-//closure manter o scope chain de forma estatica
-//vai sair 10 ou 100 no console
-//ambiguidade de variavel
-//escopo estatico no momento da criação
+// //exemplo 2
+// //closure manter o scope chain de forma estatica
+// //vai sair 10 ou 100 no console
+// //ambiguidade de variavel
+// //escopo estatico no momento da criação
 // function fn1(){
 //     const v1 = 10;
 //     return function () {
@@ -25,7 +25,7 @@
 // const v1 = 100;
 // fn2();
 
-//exemplo 3
+// //exemplo 3
 // const v1 = 10;
 // function fn1() {
 //     console.log(v1);
@@ -36,7 +36,7 @@
 // }
 // fn2(fn1);
 
-//exemplo 4
+// //exemplo 4
 // const v1 = 10;
 // function fn1() {
 //     let v1 = 10;
@@ -54,8 +54,8 @@
 // obj1.m1();
 // obj1.m2();
 
-//exemplo 5
-//mesmo escopo para os 3
+// //exemplo 5
+// //mesmo escopo para os 3
 // const obj1 = {};
 
 // for (var v1 = 0; v1 < 3; v1++) {
@@ -69,8 +69,8 @@
 // console.log(obj1[1].call());
 // console.log(obj1[2].call());
 
-//exemplo 6
-//3 escopos diferentes
+// //exemplo 6
+// //3 escopos diferentes
 // const obj1 = {};
 
 // for (var v1 = 0; v1 < 3; v1++) {
@@ -86,7 +86,7 @@
 // console.log(obj1[1].call());
 // console.log(obj1[2].call());
 
-//exemplo 7
+// //exemplo 7
 // const obj1 = {};
 
 // for (var v1 = 0; v1 < 3; v1++) {
