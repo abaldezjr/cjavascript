@@ -149,42 +149,38 @@
 // console.log(iterator.next());
 // console.log(iterator.next());
 
-//CRIANDO UM ITERABLE
+// //CRIANDO UM ITERABLE
 
-function createIterable(...array) {
-    return {
-        [Symbol.iterator]() {
-            let i = 0;
-            return ({
-                next() {
-                    if (i < array.length) {
-                        return ({
-                            value: array[i++],
-                            done: false
-                        });
-                    } else {
-                        return ({
-                            value: undefined,
-                            done: true
-                        });
-                    }
+// function createIterable(...array) {
+//     return {
+//         [Symbol.iterator]() {
+//             let i = 0;
+//             return ({
+//                 next() {
+//                     if (i < array.length) {
+//                         return ({
+//                             value: array[i++],
+//                             done: false
+//                         });
+//                     } else {
+//                         return ({
+//                             value: undefined,
+//                             done: true
+//                         });
+//                     }
 
-                }
-            });
-        }
-    };
-}
+//                 }
+//             });
+//         }
+//     };
+// }
 
-const iterable = createIterable('C', 'C++', 'Java');
-// console.log(iterator.next());
-// console.log(iterator.next());
-// console.log(iterator.next());
-// console.log(iterator.next());
-for (let i of iterable) {
-    console.log(i);
-}
-
-
-
-
+// const iterable = createIterable('C', 'C++', 'Java');
+// // console.log(iterator.next());
+// // console.log(iterator.next());
+// // console.log(iterator.next());
+// // console.log(iterator.next());
+// for (let i of iterable) {
+//     console.log(i);
+// }
 
