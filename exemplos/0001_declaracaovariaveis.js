@@ -12,3 +12,4 @@ c = 2;
 // const igual ao let mas sem reatribuição
 const d = 1;
 //const d = 1; não é possível
+console.log("hello world!");
